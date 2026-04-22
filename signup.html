@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cloud File Sharing - Signup</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Create Account</h1>
+    
+    <p id="statusMessage" style="font-weight: bold; margin-bottom: 10px;"></p>
+    
+    <div class="input-group">
+      <input type="text" id="name" placeholder="Full Name" required>
+    </div>
+    <div class="input-group">
+      <input type="email" id="email" placeholder="Email Address" required>
+    </div>
+    <div class="input-group">
+      <input type="password" id="password" placeholder="Password" required>
+    </div>
+    
+    <button onclick="signup()">Sign Up</button>
+    
+    <p class="redirect-text">Already have an account? <a href="login.html">Login here</a></p>
+  </div>
+  
+  <script src="signup.js"></script>
+</body>
+</html>
